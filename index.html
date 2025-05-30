@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Untuk Raniiii Tercanciii</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffd1dc, #ffe3f0);
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #e91e63;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .heart {
+      font-size: 3em;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); color: #e91e63; }
+      50% { transform: scale(1.2); color: #f06292; }
+      100% { transform: scale(1); color: #e91e63; }
+    }
+    button {
+      background-color: #e91e63;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    #message {
+      display: none;
+      font-size: 1.3em;
+      margin-top: 30px;
+      color: #880e4f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hai Raniiii Tercanciii 💕</h1>
+  <p>Aku cuma mau bilang satu hal penting...</p>
+  <div class="heart">❤️</div>
+  <button onclick="tampilkanPesan()">Klik di sini</button>
+
+  <div id="message">
+    <p>LOP LOPPPPP BANYAAAA, Raniiii 😳</p>
+    <p>MAAMMMM NASIII, JANGANN MAMM PEDES YA CANTIKKK 💐</p>
+  </div>
+
+  <script>
+    function tampilkanPesan() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
